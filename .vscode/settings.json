@@ -1,0 +1,20 @@
+{
+  // --- Files ---
+  "files.eol": "\n",
+  "files.encoding": "utf8",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  // --- Search ---
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  // --- Editor ---
+  "[javascript][typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "js/ts.tsdk.path": "./node_modules/typescript/lib"
+}
