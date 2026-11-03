@@ -167,7 +167,7 @@ importers:
   .:
     devDependencies:
       '@types/node':
-        specifier: ^24.19.2
+        specifier: 24.19.2
         version: 24.19.2
       oxfmt:
         specifier: 0.74.0
@@ -179,7 +179,7 @@ importers:
   packages/api:
     dependencies:
       hono:
-        specifier: ^4.13.13
+        specifier: 4.13.13
         version: 4.13.13
 
 packages:

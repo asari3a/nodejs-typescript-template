@@ -6,6 +6,6 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "hono": "^4.13.13"
+    "hono": "4.13.13"
   }
 }
