@@ -173,28 +173,43 @@ settings:
 
 catalogs:
   default:
+    '@types/node':
+      specifier: 24.19.2
+      version: 24.19.2
     hono:
       specifier: 4.13.19
       version: 4.13.19
+    oxfmt:
+      specifier: 0.75.0
+      version: 0.75.0
+    oxlint:
+      specifier: 1.90.0
+      version: 1.90.0
+    tsx:
+      specifier: 4.23.15
+      version: 4.23.15
+    typescript:
+      specifier: 7.0.2
+      version: 7.0.2
 
 importers:
 
   .:
     devDependencies:
       '@types/node':
-        specifier: 24.19.2
+        specifier: 'catalog:'
         version: 24.19.2
       oxfmt:
-        specifier: 0.75.0
+        specifier: 'catalog:'
         version: 0.75.0
       oxlint:
-        specifier: 1.90.0
+        specifier: 'catalog:'
         version: 1.90.0
       tsx:
-        specifier: 4.23.15
+        specifier: 'catalog:'
         version: 4.23.15
       typescript:
-        specifier: 7.0.2
+        specifier: 'catalog:'
         version: 7.0.2
 
   packages/api:

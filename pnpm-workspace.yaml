@@ -5,6 +5,11 @@ packages:
 engineStrict: true
 catalogMode: strict
 catalog:
+  "@types/node": 24.19.2
+  oxfmt: 0.75.0
+  oxlint: 1.90.0
+  tsx: 4.23.15
+  typescript: 7.0.2
   hono: 4.13.19
 
 allowBuilds:
