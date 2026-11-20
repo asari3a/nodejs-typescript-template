@@ -1,5 +1,11 @@
 saveExact: true
 packages:
   - 'packages/*'
+
+engineStrict: true
+catalogMode: strict
+catalog:
+  hono: 4.13.19
+
 allowBuilds:
   esbuild: true
