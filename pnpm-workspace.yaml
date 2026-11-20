@@ -11,6 +11,10 @@ catalog:
   tsx: 4.23.15
   typescript: 7.0.2
   hono: 4.13.19
+  esbuild-loader: 4.5.0
+  webpack: 5.112.2
+  webpack-cli: 7.3.1
+  webpack-license-plugin: 4.5.1
 
 allowBuilds:
   esbuild: true

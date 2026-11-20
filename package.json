@@ -8,10 +8,14 @@
   },
   "devDependencies": {
     "@types/node": "catalog:",
+    "esbuild-loader": "catalog:",
     "oxfmt": "catalog:",
     "oxlint": "catalog:",
     "tsx": "catalog:",
-    "typescript": "catalog:"
+    "typescript": "catalog:",
+    "webpack": "catalog:",
+    "webpack-cli": "catalog:",
+    "webpack-license-plugin": "catalog:"
   },
   "packageManager": "pnpm@12.21.0"
 }

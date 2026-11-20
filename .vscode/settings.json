@@ -5,8 +5,12 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
+  "files.readonlyInclude": {
+    "**/dist/**": true,
+  },
   // --- Search ---
   "search.exclude": {
+    "**/dist": true,
     "**/node_modules": true
   },
   // --- Editor ---
