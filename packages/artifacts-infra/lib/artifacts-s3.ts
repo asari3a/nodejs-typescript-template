@@ -14,7 +14,6 @@ export class ArtifactS3Stack extends Stack {
 
     new CfnOutput(this, 'ArtifactS3BucketArn', {
       value: bucket.bucketArn,
-      description: 'Artifactを保存するS3のARN',
     });
   }
 }
