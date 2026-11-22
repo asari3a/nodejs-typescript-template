@@ -7,6 +7,11 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "aws-cdk-lib": "catalog:",
+    "constructs": "catalog:",
     "hono": "catalog:"
+  },
+  "devDependencies": {
+    "aws-cdk": "catalog:"
   }
 }

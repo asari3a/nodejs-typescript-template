@@ -15,6 +15,9 @@ catalog:
   webpack: 5.112.2
   webpack-cli: 7.3.1
   webpack-license-plugin: 4.5.1
+  aws-cdk-lib: 2.277.0
+  constructs: 10.8.1
+  aws-cdk: 2.1149.0
 
 allowBuilds:
   esbuild: true
