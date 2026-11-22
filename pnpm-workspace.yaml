@@ -19,6 +19,8 @@ catalog:
   constructs: 10.8.1
   aws-cdk: 2.1149.0
   vitest: 5.1.1
+  husky: 9.1.7
+  lint-staged: 17.6.1
 
 allowBuilds:
   esbuild: true

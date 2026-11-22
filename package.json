@@ -4,11 +4,14 @@
   "type": "module",
   "scripts": {
     "fmt": "oxfmt",
-    "lint": "oxlint"
+    "lint": "oxlint",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@types/node": "catalog:",
     "esbuild-loader": "catalog:",
+    "husky": "catalog:",
+    "lint-staged": "catalog:",
     "oxfmt": "catalog:",
     "oxlint": "catalog:",
     "tsx": "catalog:",
@@ -17,6 +20,10 @@
     "webpack": "catalog:",
     "webpack-cli": "catalog:",
     "webpack-license-plugin": "catalog:"
+  },
+  "lint-staged": {
+    "*": "oxfmt --no-error-on-unmatched-pattern",
+    "*.{js,cjs,mjs,jsx,ts,cts,mts,tsx}": "oxlint"
   },
   "packageManager": "pnpm@12.21.0"
 }

@@ -14,9 +14,9 @@
     "**/node_modules": true
   },
   // --- Editor ---
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "oxc.oxc-vscode",
   "[javascript][typescript]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "oxc.oxc-vscode",
     "editor.tabSize": 2,
     "editor.insertSpaces": true
   },
