@@ -1,0 +1,12 @@
+{
+  "name": "artifacts-infra",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "aws-cdk-lib": "catalog:",
+    "constructs": "catalog:"
+  },
+  "devDependencies": {
+    "aws-cdk": "catalog:"
+  }
+}
