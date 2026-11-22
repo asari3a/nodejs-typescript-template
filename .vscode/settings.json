@@ -6,7 +6,7 @@
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "files.readonlyInclude": {
-    "**/dist/**": true,
+    "**/dist/**": true
   },
   // --- Search ---
   "search.exclude": {

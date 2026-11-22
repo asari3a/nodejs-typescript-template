@@ -19,7 +19,7 @@
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
     }
-  },
+  }
 }
 ```
 
