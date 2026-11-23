@@ -1,0 +1,17 @@
+{
+  "name": "api-infra",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "diff": "cdk diff",
+    "synth": "cdk synth",
+    "deploy": "cdk deploy"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "catalog:",
+    "constructs": "catalog:"
+  },
+  "devDependencies": {
+    "aws-cdk": "catalog:"
+  }
+}
