@@ -1,7 +1,12 @@
 import * as cdk from 'aws-cdk-lib';
+import { getStringValueFromSsm } from 'utils';
 
-import { ObjectKeyParameterStack } from '../../api/infra/lib/stack/stack';
+import { ApiStack } from '../lib/api-stack';
 
 const app = new cdk.App();
 
-new ObjectKeyParameterStack(app, 'ObjectKeyParameter');
+// GetFrom Parameter Store
+const artifactBucketArn = await getStringValueFromSsm('artifactBucketArn');
+const objectKey = await getStringValueFromSsm('/api/artifact-object-key');
+
+new ApiStack(app, 'ApiStack', { bucketArn: artifactBucketArn, objectKey });

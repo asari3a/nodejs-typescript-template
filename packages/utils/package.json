@@ -11,5 +11,8 @@
   "scripts": {
     "build": "tsc",
     "test": "vitest run"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ssm": "catalog:"
   }
 }

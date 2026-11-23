@@ -7,12 +7,12 @@ export default {
   mode: 'production',
   target: 'node',
   context: import.meta.dirname,
-  entry: './src/main.ts',
+  entry: './src/handler.ts',
   devtool: 'source-map',
   experiments: { outputModule: true },
   output: {
     path: resolve(import.meta.dirname, 'dist'),
-    filename: 'main.mjs',
+    filename: 'index.mjs',
     library: { type: 'module' },
   },
   resolve: {

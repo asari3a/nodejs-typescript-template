@@ -5,11 +5,13 @@
   "scripts": {
     "diff": "cdk diff",
     "synth": "cdk synth",
-    "deploy": "cdk deploy"
+    "deploy": "cdk deploy",
+    "object-key:deploy": "cdk deploy ObjectKeyParamStack --app \"node --import tsx bin/object-key-parameter.ts\""
   },
   "dependencies": {
     "aws-cdk-lib": "catalog:",
-    "constructs": "catalog:"
+    "constructs": "catalog:",
+    "utils": "workspace:"
   },
   "devDependencies": {
     "aws-cdk": "catalog:"
