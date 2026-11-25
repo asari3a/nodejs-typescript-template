@@ -17,11 +17,23 @@
     "**/node_modules": true
   },
   // --- Editor ---
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "oxc.oxc-vscode",
-  "[javascript][typescript]": {
+  "[javascript][typescript][typescriptreact]": {
     "editor.tabSize": 2,
-    "editor.insertSpaces": true
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[html]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[json][jsonc]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "oxc.oxc-vscode"
   },
   "js/ts.experimental.useTsgo": true,
   "js/ts.tsdk.path": "./node_modules/typescript/lib"
